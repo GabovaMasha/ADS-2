@@ -28,7 +28,7 @@ return pown(x, n)/fact(n);
 
 double expn(double x, uint16_t count) {
 double e = 0;
-for (int i = 0; i <= count; i++){
+for (int i = 0; i <= count; i++) {
 e += calcItem(x, i);
 }
 return e;
